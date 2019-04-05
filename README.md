@@ -1,6 +1,6 @@
 # Simple card captcha
 
-> Released captcha with durak card game rules
+Released captcha with durak card game rules
 
 ## Build Setup
 
@@ -10,4 +10,3 @@
 docker-compose up --build 
 
 ```
-
