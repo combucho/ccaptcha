@@ -7,8 +7,8 @@ define('FILENAME', 'res/cards.png');
 define('W', 91);
 define('H', 137);
 
-$i=$_GET['card'];
-$cards=array();
+$i = $_GET['card'];
+$cards = array();
 $cards = $_SESSION['cards'];
 
 $info = getimagesize(FILENAME);

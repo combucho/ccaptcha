@@ -23,7 +23,8 @@ class Card
     }
 
     // for debug purpose
-    public static function printCard($card){
-        echo $card->getFace() . " " . $card->getSuit()."<br />";
+    public static function printCard($card)
+    {
+        echo $card->getFace() . " " . $card->getSuit() . "<br />";
     }
 }
