@@ -8,4 +8,5 @@ if (isset($_SESSION['winner'])) {
     else echo "Captcha is invalid. You are bot or fool :)";
 }
 
+$_SESSION="";
 echo "<br /><a href='/'>back</a>";
