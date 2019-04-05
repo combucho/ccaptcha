@@ -1,0 +1,13 @@
+version: '3.5'
+services:
+  apache:
+    image: php:7.2-apache
+    container_name: php-apache
+    hostname: apache
+    volumes:
+      - ./src:/var/www/html
+    ports:
+      - 80:80
+# adding gd support via Dockerfile
+    build:
+      ./phpapache

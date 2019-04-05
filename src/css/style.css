@@ -1,0 +1,58 @@
+body{
+    color: antiquewhite;
+    font: 14px/1.5 Arial, Hevletica, Verdana;
+}
+
+img {
+    filter: drop-shadow(10px 10px 10px #222);
+}
+
+
+img:hover{
+    filter: sepia(150%);
+}
+
+.wrapper{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image:
+            radial-gradient(
+                    circle,
+                    limegreen,
+                    green,
+                    darkgreen,
+                    black
+            );
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cards{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
